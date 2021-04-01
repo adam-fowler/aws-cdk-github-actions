@@ -11,7 +11,11 @@ function parseInputs(){
 }
 
 function installTypescript(){
+	echo "Update NPM"
+	npm install -g npm@latest
+	echo "Install typescript"
 	npm install typescript
+	echo "Install dependencies"
 	npm install
 }
 
